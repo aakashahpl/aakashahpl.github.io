@@ -1,0 +1,67 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    /* From https://css.glass */
+  
+    color: rgb(27, 22, 26);
+    height: auto;
+    width: 50rem;
+  
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.121);
+    margin-bottom: 40px;
+  
+    padding: 16px;
+  
+  
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url('https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .qoute {
+    color: rgb(245, 247, 238);
+    font-style: italic;
+    text-align: center;
+    font-size: 1rem;
+    font-style: bold;
+  }
+  .name{
+    color:aliceblue;
+    font-style: italic;
+    text-align: right;
+    
+  }
